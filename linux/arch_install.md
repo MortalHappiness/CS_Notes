@@ -1,4 +1,4 @@
-## Arch Linux 安裝紀錄
+## Arch Linux 安裝紀錄（練習機）
 2020/2/29
 
 Linux Mint用了一年，雖然安裝非常簡單，開箱即用，Cinnamon也很好看，但它預先裝了太多不會用到的東西了，而且最近想試試輕量的bspwm tiling window manager，所以先跟Mint說掰掰，來用號稱超flexible的Gentoo或Arch。(Mint之後就放隨身碟當救援用的OS吧)
@@ -71,7 +71,7 @@ locale-gen
 ```
 創`/etc/locale.conf`，在裡面加`LANG=en_US.UTF-8`。
 
-### 調網路設定（我覺得這個最麻煩）
+### 調網路設定
 創`/etc/hostname`並寫入自己的hostname。
 創`/etc/hosts`並寫入
 ```
