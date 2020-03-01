@@ -115,7 +115,7 @@ ping archlinux.org
 pacman -S xorg xorg-xinit xterm bspwm sxhkd
 ```
 
-#### bspwm 設定
+### bspwm 設定
 ```sh
 pacman -S wget sudo
 ```
@@ -147,6 +147,6 @@ sudo pacman -S git base-devel
 git clone https://aur.archlinux.org/google-chrome.git
 cd google-chrome
 makepkg -si
-pacman -S wqy-zenhei    # 中文字體
+sudo pacman -S wqy-zenhei    # 中文字體
 google-chrome-stable
 ```
