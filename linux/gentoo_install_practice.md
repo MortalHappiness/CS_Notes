@@ -247,7 +247,3 @@ mv sxhkdrc sxhkd/
 exec bspwm
 ```
 之後`startx`，完成！按super + return就可以開啟xterm
-
-## 加碼：載Google-Chrome並正常顯示中文
-```sh
-```
