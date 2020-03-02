@@ -193,6 +193,10 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## 重新開機後
 
+### 刪除stage tarball
+```sh
+rm /stage3-*.tar.*
+```
 ### 連網路
 現在先手動連網，之後等確定要裝在非練習機上再弄network manager之類的。
 ```sh
@@ -208,14 +212,21 @@ dhcpcd wlp2s0
 ping www.gentoo.org
 ```
 
+### 載sudo、加一般使用者
+```sh
+emerge --ask app-admin/sudo
+useradd -m -G users,wheel,audio -s /bin/bash 使用者名稱
+passwd 使用者名稱
+visudo
+```
+
 ### 載圖形界面
 ```sh
+# 圖形界面也是超久
+emerge --ask x11-base/xorg-server x11-terms/xterm x11-wm/bspwm x11-misc/sxhkd
 ```
 
-#### bspwm 設定
-```sh
-```
-
+### bspwm 設定
 #### 注意：以下從root身份切換成一般帳號（可以用sudo）
 獲取設定檔
 ```sh
@@ -237,6 +248,6 @@ exec bspwm
 ```
 之後`startx`，完成！按super + return就可以開啟xterm
 
-## 加碼：載Google-Chrome並正常顯示中文(順便試用AUR)
+## 加碼：載Google-Chrome並正常顯示中文
 ```sh
 ```
