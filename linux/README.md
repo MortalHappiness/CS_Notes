@@ -1,4 +1,4 @@
-## Linux
+# Linux
 
 | Date | Title |
 | ---- | ----- |
