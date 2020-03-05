@@ -1,4 +1,4 @@
-## Gentoo Linux 安裝紀錄（練習機）
+# Gentoo Linux 安裝紀錄（練習機）
 2020/3/1
 
 接續上篇裝Arch，這篇來裝Gentoo，最後再來決定要裝哪個distro到我的筆電上。因此本篇主要是將Gentoo Linux在練習機上裝到有圖形界面的紀錄。
