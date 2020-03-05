@@ -272,3 +272,9 @@ makepkg -si
 ln -s /usr/bin/google-chrome-stable /usr/bin/google-chrome
 google-chrome
 ```
+
+### 載Miniconda
+```sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
