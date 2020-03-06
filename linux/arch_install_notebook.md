@@ -243,6 +243,22 @@ sudo pacman -S wget git base-devel
 sudo pacman -S xorg xorg-xinit xterm bspwm sxhkd
 ```
 
+### gitub ssh 設定
+```sh
+sudo pacman -S openssh
+```
+之後參考[教學](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+### 關於複製貼上的一些工具
+```sh
+pacman -S xclip clipnotify clipmenu
+```
+註：xclip的使用方法為
+```sh
+xclip -sel clip < 檔案名稱
+```
+它可以把檔案讀進`CLIPBOARD`。
+
 ### 設定
 
 clone [我自己的Linux設定檔](https://github.com/MortalHappiness/Linux-config)到`$HOME`：
