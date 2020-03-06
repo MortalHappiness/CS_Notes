@@ -230,6 +230,7 @@ ping archlinux.org
 sudo pacman -S os-prober
 mount /dev/sda1 /mnt
 grub-mkconfig -o /boot/grub/grub.cfg
+sudo timedatectl set-local-rtc 1
 ```
 
 ### 載一些工具
