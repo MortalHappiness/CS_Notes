@@ -225,6 +225,13 @@ ping archlinux.org
 
 ## 設定
 
+### Windows 雙系統
+```sh
+sudo pacman -S os-prober
+mount /dev/sda1 /mnt
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 ### 載一些工具
 ```sh
 sudo pacman -S wget git base-devel
