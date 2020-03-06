@@ -262,7 +262,9 @@ bash setup.sh install
 
 ### 載字體
 ```sh
-sudo pacman -S wqy-zenhei    # 中文字體
+sudo pacman -S ttf-liberation   # free metric-compatible substitute for fonts in Windows and Microsoft Office
+sudo pacman -S ttf-croscore     # Chrome OS 字體
+sudo pacman -S wqy-zenhei       # 中文字體
 ```
 
 ### 中文輸入法
