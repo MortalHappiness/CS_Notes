@@ -185,7 +185,18 @@ pacman -S dhcpcd iw wpa_supplicant
 ```sh
 pacman -S grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id='Arch Linux'
-grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+修改`/etc/default/grub`，我自己在`GRUB_CMDLINE_LINUX_DEFAULT`(Kernel parameter的設定)加上`sysrq_always_enabled=1`，以便可以用`REISUB`重新開機。
+
+```sh
+# Windows 雙系統
+pacman -S os-prober
+mount /dev/sda1 /mnt
+sudo timedatectl set-local-rtc 1
+grub-mkconfig -o 
+# 生成grub.cfg
+/boot/grub/grub.cfg
 ```
 
 ### 改root密碼
@@ -225,22 +236,14 @@ ping archlinux.org
 
 ## 設定
 
-### Windows 雙系統
-```sh
-sudo pacman -S os-prober
-mount /dev/sda1 /mnt
-grub-mkconfig -o /boot/grub/grub.cfg
-sudo timedatectl set-local-rtc 1
-```
-
 ### 載一些工具
 ```sh
-sudo pacman -S wget git base-devel
+sudo pacman -S wget git base-devel zip unzip
 ```
 
-### 載圖形界面
+### 載圖形界面和相關工具
 ```sh
-sudo pacman -S xorg xorg-xinit xterm bspwm sxhkd
+sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl
 ```
 
 ### gitub ssh 設定
@@ -259,7 +262,20 @@ xclip -sel clip < 檔案名稱
 ```
 它可以把檔案讀進`CLIPBOARD`。
 
-### 設定
+### 讓`video`群組的人可以調亮度
+用root權限編輯
+```
+ACTION=="add", SUBSYSTEM=="backlight", KERNEL=="名稱", RUN+="/bin/chgrp video /sys/class/backlight/%k/brightness"
+ACTION=="add", SUBSYSTEM=="backlight", KERNEL=="名稱", RUN+="/bin/chmod g+w /sys/class/backlight/%k/brightness"
+```
+其中"名稱"要看`ls /sys/class/backlight`的輸出是什麼，例如`acpi_vedio0`或`intel_backlight`。這個設定要重新開機才有效 。
+
+如果要讓使用者可以調螢幕亮度，請把使用者加進`vedio`群組。
+```sh
+sudo usermod -a -G vedio 使用者名稱
+```
+
+### 圖形介面設定
 
 clone [我自己的Linux設定檔](https://github.com/MortalHappiness/Linux-config)到`$HOME`：
 
