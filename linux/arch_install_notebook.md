@@ -243,7 +243,7 @@ sudo pacman -S wget git base-devel zip unzip
 
 ### 載圖形界面和相關工具
 ```sh
-sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl
+sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl dzen2 scrot sxiv alsa-utils
 ```
 
 ### gitub ssh 設定
@@ -297,6 +297,7 @@ bash setup.sh install
 sudo pacman -S ttf-liberation   # free metric-compatible substitute for fonts in Windows and Microsoft Office
 sudo pacman -S ttf-croscore     # Chrome OS 字體
 sudo pacman -S wqy-zenhei       # 中文字體
+sudo pacman -S ttf-font-awesome # icon
 ```
 
 ### 中文輸入法
