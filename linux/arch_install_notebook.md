@@ -336,3 +336,8 @@ rm zxvf dart-sass-1.26.2-linux-x64.tar.gz
 ```sh
 export PATH="$PATH:$HOME/dart-sass"
 ```
+
+### 載nodejs
+```sh
+sudo pacman -S nodejs npm
+```
