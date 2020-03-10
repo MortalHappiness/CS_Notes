@@ -244,7 +244,7 @@ sudo pacman -S wget git base-devel zip unzip
 
 ### 載圖形界面和相關工具
 ```sh
-sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl dzen2 scrot sxiv alsa-utils
+sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl dzen2 scrot sxiv alsa-utils unclutter
 ```
 
 ### gitub ssh 設定
