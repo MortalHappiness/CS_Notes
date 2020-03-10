@@ -341,3 +341,8 @@ export PATH="$PATH:$HOME/dart-sass"
 ```sh
 sudo pacman -S nodejs npm
 ```
+
+### PDF Reader
+[Foxit Reader](https://www.foxitsoftware.com/pdf-reader/)
+載下來之後解壓縮跑install的script之後再加到PATH就行了。
+
