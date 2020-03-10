@@ -131,7 +131,8 @@ mount /dev/sdb1 /mnt/efi
 mount /dev/sdb3 /mnt/home
 ```
 
-編輯`/etc/pacman.d/mirrorlist`，把Taiwan移到最上面。
+編輯`/etc/pacman.d/mirrorlist`，參考[官方教學](https://wiki.archlinux.org/index.php/Mirrors)。
+我是先到[Mirrorlist Generator](https://www.archlinux.org/mirrorlist/)勾http,https,IPv4後複製一份到`/etc/pacman.d/mirrorlist.backup`，之後把Worldwide和Taiwan全部取消註解。之後`pacman -S pacman-contrib`，再`rankmirrors  /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist`
 
 載kernel和firmware：
 ```sh
