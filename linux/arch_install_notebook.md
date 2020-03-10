@@ -321,3 +321,17 @@ google-chrome
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
+
+### 載dart-sass
+
+```sh
+# 載到$HOME
+wget https://github.com/sass/dart-sass/releases/download/1.26.2/dart-sass-1.26.2-linux-x64.tar.gz
+tar zxvf dart-sass-1.26.2-linux-x64.tar.gz
+rm zxvf dart-sass-1.26.2-linux-x64.tar.gz
+```
+編輯.bashrc
+
+```sh
+export PATH="$PATH:$HOME/dart-sass"
+```
