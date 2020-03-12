@@ -239,7 +239,7 @@ ping archlinux.org
 
 ### 載一些工具
 ```sh
-sudo pacman -S wget git base-devel zip unzip
+sudo pacman -S wget git base-devel zip unzip ctags
 ```
 
 ### 載圖形界面和相關工具
