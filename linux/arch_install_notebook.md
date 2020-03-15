@@ -190,6 +190,12 @@ grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id='Arch Linu
 
 修改`/etc/default/grub`，我自己在`GRUB_CMDLINE_LINUX_DEFAULT`(Kernel parameter的設定)加上`sysrq_always_enabled=1`，以便可以用`REISUB`重新開機。
 
+#### Hibernate 設定
+1. Kernel parameter須加上`resume=UUID=...`，指向SWAP。https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate#Required_kernel_parameters
+2. `/etc/mkinitcpio.conf`的`HOOKS`那行要加進`resume`。https://wiki.archlinux.org/index.php/Power_management/Suspend_and_hibernate#Configre_the_initramfs
+3. `mkinitcpio -p linux`
+https://wiki.archlinux.org/index.php/Mkinitcpio#Image_creation_and_activation
+
 ```sh
 # Windows 雙系統
 pacman -S os-prober
