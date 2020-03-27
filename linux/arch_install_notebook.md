@@ -305,6 +305,7 @@ sudo pacman -S ttf-liberation   # free metric-compatible substitute for fonts in
 sudo pacman -S ttf-croscore     # Chrome OS 字體
 sudo pacman -S wqy-zenhei       # 中文字體
 sudo pacman -S ttf-font-awesome # icon
+sudo pacman -S noto-fonts-emoji # emoji
 ```
 
 ### 中文輸入法
@@ -346,6 +347,13 @@ export PATH="$PATH:$HOME/dart-sass"
 ### 載nodejs
 ```sh
 sudo pacman -S nodejs npm
+```
+
+#### 或載nvm
+```sh
+git clone https://aur.archlinux.org/nvm.git
+cd nvm
+makepkg -si
 ```
 
 ### PDF Reader
