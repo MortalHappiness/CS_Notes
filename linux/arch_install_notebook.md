@@ -356,6 +356,17 @@ cd nvm
 makepkg -si
 ```
 
+#### fzf
+超好用的fuzzy finder
+```sh
+sudo pacman -S fzf
+```
+然後`.bashrc`裡加兩行
+```sh
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+```
+
 ### PDF Reader
 [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/)
 載下來之後解壓縮跑install的script之後再加到PATH就行了。
