@@ -371,3 +371,6 @@ source /usr/share/fzf/completion.bash
 [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/)
 載下來之後解壓縮跑install的script之後再加到PATH就行了。
 
+### Postman
+https://www.postman.com/downloads/
+
