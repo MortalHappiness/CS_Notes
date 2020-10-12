@@ -18,6 +18,12 @@ sudo apt install hime
 
 ## Applications
 
+### Basic tools
+
+```
+sudo apt install python3-pip
+```
+
 ### Google Chrome
 
 Go to https://www.google.com/chrome/ and download the `.deb` file, and then
