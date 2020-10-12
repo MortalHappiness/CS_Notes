@@ -10,6 +10,12 @@ sudo apt-get install libasound2 alsa-utils alsa-oss
 alsamixer
 ```
 
+### 中文輸入
+
+```
+sudo apt install hime
+```
+
 ## Applications
 
 ### Google Chrome
@@ -19,12 +25,6 @@ Go to https://www.google.com/chrome/ and download the `.deb` file, and then
 ```
 sudo apt update
 sudo apt install ./google-chrome-stable_current_amd64.deb
-```
-
-### 中文輸入
-
-```
-sudo apt install hime
 ```
 
 ### Ghidra
