@@ -20,3 +20,13 @@ Go to https://www.google.com/chrome/ and download the `.deb` file, and then
 sudo apt update
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
+
+### Ghidra
+
+Go to https://ghidra-sre.org/ and download the `.zip` file, and then
+
+```
+unzip ghidra_9.1.2_PUBLIC_20200212.zip
+cd ghidra_9.1.2_PUBLIC_20200212
+./ghidraRun
+```
