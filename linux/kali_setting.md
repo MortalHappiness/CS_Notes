@@ -22,6 +22,12 @@ sudo apt install hime
 sudo apt install fonts-symbola fonts-croscore
 ```
 
+### X11
+
+```
+sudo apt install xterm
+```
+
 ## Applications
 
 ### Basic tools
