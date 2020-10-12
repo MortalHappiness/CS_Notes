@@ -16,6 +16,12 @@ alsamixer
 sudo apt install hime
 ```
 
+### Fonts
+
+```
+sudo apt install fonts-symbola fonts-croscore
+```
+
 ## Applications
 
 ### Basic tools
