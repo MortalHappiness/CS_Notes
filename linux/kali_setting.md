@@ -1,5 +1,15 @@
 # Kali Linux Setting
 
+## Sound
+
+https://unix.stackexchange.com/questions/257322/no-audio-on-kali-linux
+
+```
+lspci
+sudo apt-get install libasound2 alsa-utils alsa-oss
+alsamixer
+```
+
 ## Applications
 
 ### Google Chrome
