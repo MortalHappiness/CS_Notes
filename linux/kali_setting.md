@@ -21,6 +21,12 @@ sudo apt update
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
+### 中文輸入
+
+```
+sudo apt install hime
+```
+
 ### Ghidra
 
 Go to https://ghidra-sre.org/ and download the `.zip` file, and then
