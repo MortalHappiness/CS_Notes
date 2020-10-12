@@ -30,3 +30,14 @@ unzip ghidra_9.1.2_PUBLIC_20200212.zip
 cd ghidra_9.1.2_PUBLIC_20200212
 ./ghidraRun
 ```
+
+### Gdb-peda
+
+https://github.com/longld/peda
+
+```
+sudo apt install gdb
+git clone https://github.com/longld/peda.git ~/peda
+echo "source ~/peda/peda.py" >> ~/.gdbinit
+echo "DONE! debug your program with gdb and enjoy"
+```
