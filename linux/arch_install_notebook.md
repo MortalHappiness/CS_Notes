@@ -201,9 +201,8 @@ https://wiki.archlinux.org/index.php/Mkinitcpio#Image_creation_and_activation
 pacman -S os-prober
 mount /dev/sda1 /mnt
 sudo timedatectl set-local-rtc 1
-grub-mkconfig -o 
 # 生成grub.cfg
-/boot/grub/grub.cfg
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### 改root密碼
