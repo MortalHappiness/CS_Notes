@@ -66,6 +66,14 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
 ```
 
+### pwntools
+
+https://github.com/Gallopsled/pwntools
+
+```
+pip install pwntools
+```
+
 ### SageMath
 
 http://ftp.riken.jp/sagemath/linux/64bit/index.html
@@ -76,4 +84,12 @@ tar jxvf sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
 cd SageMath
 ./sage
 echo "%colors Linux" > $HOME/.sage/init.sage
+```
+
+### pycryptodome
+
+https://github.com/Legrandin/pycryptodome
+
+```
+pip install pycryptodome
 ```
