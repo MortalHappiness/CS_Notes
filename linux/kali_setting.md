@@ -73,4 +73,7 @@ http://ftp.riken.jp/sagemath/linux/64bit/index.html
 ```
 wget http://ftp.riken.jp/sagemath/linux/64bit/sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
 tar jxvf sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
+cd SageMath
+./sage
+echo "%colors Linux" > $HOME/.sage/init.sage
 ```
