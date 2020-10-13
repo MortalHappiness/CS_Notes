@@ -25,7 +25,7 @@ sudo apt install fonts-symbola fonts-croscore
 ### X11
 
 ```
-sudo apt install xterm bspwm
+sudo apt install xterm bspwm xinput unclutter
 ```
 
 ## Applications
