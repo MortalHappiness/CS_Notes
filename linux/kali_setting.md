@@ -65,3 +65,12 @@ git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
 ```
+
+### SageMath
+
+http://ftp.riken.jp/sagemath/linux/64bit/index.html
+
+```
+wget http://ftp.riken.jp/sagemath/linux/64bit/sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
+tar jxvf sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
+```
