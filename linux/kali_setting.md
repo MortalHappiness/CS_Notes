@@ -33,7 +33,7 @@ sudo apt install xterm xinput unclutter
 ### Basic tools
 
 ```
-sudo apt install python3-pip python3-autopep8
+sudo apt install python3-pip
 ```
 
 ### Google Chrome
