@@ -93,3 +93,14 @@ https://github.com/Legrandin/pycryptodome
 ```
 pip install pycryptodome
 ```
+
+### HashPump
+
+https://github.com/bwall/HashPump
+
+```
+git clone https://github.com/bwall/HashPump.git
+cd HashPump
+make
+pip install hashpumpy
+```
