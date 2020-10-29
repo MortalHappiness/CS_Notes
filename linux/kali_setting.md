@@ -84,6 +84,9 @@ tar jxvf sage-9.1-Debian_GNU_Linux_10-x86_64.tar.bz2
 cd SageMath
 ./sage
 echo "%colors Linux" > $HOME/.sage/init.sage
+# Install pwntools in sagemath
+sage -sh
+pip install pwntools
 ```
 
 ### pycryptodome
