@@ -107,3 +107,14 @@ cd HashPump
 make
 pip install hashpumpy
 ```
+
+### Postman
+
+https://www.postman.com/downloads/
+
+```
+wget https://dl.pstmn.io/download/latest/linux64 -O Postman.tar.gz
+tar zxvf Postman.tar.gz
+cd Postman
+./Postman
+```
