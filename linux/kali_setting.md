@@ -110,6 +110,15 @@ make
 pip install hashpumpy
 ```
 
+### gmpy2
+
+https://stackoverflow.com/questions/40075271/gmpy2-not-installing-mpir-h-not-found
+
+```
+sudo apt install libgmp-dev libmpfr-dev libmpc-dev
+pip install gmpy2
+```
+
 ### Postman
 
 https://www.postman.com/downloads/
