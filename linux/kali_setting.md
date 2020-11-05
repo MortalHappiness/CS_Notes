@@ -129,3 +129,11 @@ tar zxvf Postman.tar.gz
 cd Postman
 ./Postman
 ```
+
+### solc
+
+https://github.com/ethereum/solidity/releases
+
+```
+wget https://github.com/ethereum/solidity/releases/download/v0.7.4/solc-static-linux -O solc
+```
