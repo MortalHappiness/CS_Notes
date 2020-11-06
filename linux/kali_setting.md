@@ -152,3 +152,12 @@ https://ngrok.com/download
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ```
+
+### scrabble
+
+https://github.com/denny0223/scrabble
+
+```
+wget https://raw.githubusercontent.com/denny0223/scrabble/master/scrabble
+chmod +x scrabble
+```
