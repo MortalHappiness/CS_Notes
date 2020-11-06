@@ -137,3 +137,18 @@ https://github.com/ethereum/solidity/releases
 ```
 wget https://github.com/ethereum/solidity/releases/download/v0.7.4/solc-static-linux -O solc
 ```
+
+### Ncat
+
+```
+sudo apt install ncat
+```
+
+### Ngrok
+
+https://ngrok.com/download
+
+```
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+unzip ngrok-stable-linux-amd64.zip
+```
