@@ -249,7 +249,7 @@ sudo pacman -S wget git base-devel zip unzip ctags
 
 ### 載圖形界面和相關工具
 ```sh
-sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl dzen2 scrot sxiv alsa-utils unclutter
+sudo pacman -S xorg xorg-xinit xterm termite bspwm sxhkd brightnessctl dzen2 scrot sxiv alsa-utils unclutter thunar
 ```
 
 ### gitub ssh 設定
