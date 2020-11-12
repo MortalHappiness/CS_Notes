@@ -45,6 +45,12 @@ sudo apt update
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
+### Virtual Box
+
+```
+sudo apt install virtualbox
+```
+
 ### Ghidra
 
 Go to https://ghidra-sre.org/ and download the `.zip` file, and then
