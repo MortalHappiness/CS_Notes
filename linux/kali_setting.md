@@ -51,10 +51,10 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 sudo apt install virtualbox
 ```
 
-### strace
+### strace/lstrace
 
 ```
-sudo apt install strace
+sudo apt install strace lstrace
 ```
 
 ### Ghidra
