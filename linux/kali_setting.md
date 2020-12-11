@@ -55,6 +55,8 @@ sudo apt install virtualbox
 
 ```
 sudo apt install docker.io docker-compose
+sudo usermod -aG docker $USER
+newgrp - docker
 ```
 
 ### strace/lstrace
