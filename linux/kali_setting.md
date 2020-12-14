@@ -75,6 +75,10 @@ cd ghidra_9.1.2_PUBLIC_20200212
 ./ghidraRun
 ```
 
+### Cutter
+
+https://cutter.re/
+
 ### Gdb-peda
 
 https://github.com/longld/peda
