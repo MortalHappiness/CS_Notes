@@ -185,3 +185,9 @@ https://github.com/denny0223/scrabble
 wget https://raw.githubusercontent.com/denny0223/scrabble/master/scrabble
 chmod +x scrabble
 ```
+
+### mingw-w64
+
+```
+sudo apt install mingw-w64
+```
