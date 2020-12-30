@@ -191,3 +191,16 @@ chmod +x scrabble
 ```
 sudo apt install mingw-w64
 ```
+
+### one_gadget / seccomp-tools
+
+https://github.com/david942j/one_gadget
+https://github.com/david942j/seccomp-tools
+
+```
+gem install --user-install one_gadget
+gem install --user-install seccomp-tools
+```
+```
+export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
+```
