@@ -355,6 +355,12 @@ cd nvm
 makepkg -si
 ```
 
+#### Java
+
+```
+sudo pacman -S jdk-openjdk
+```
+
 #### fzf
 超好用的fuzzy finder
 ```sh
