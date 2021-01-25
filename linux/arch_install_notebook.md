@@ -370,6 +370,7 @@ https://github.com/google/google-java-format
 
 下載 `.jar` 檔後放進 `~/jars/` 之後創以下這個 shell script
 
+`google_java_format`
 ```
 #!/bin/sh
 java -jar ~/jars/google-java-format-1.9-all-deps.jar "$@"
