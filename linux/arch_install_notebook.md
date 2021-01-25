@@ -368,6 +368,13 @@ sudo pacman -S jdk-openjdk
 ### google-java-format
 https://github.com/google/google-java-format
 
+下載 `.jar` 檔後放進 `~/jars/` 之後創以下這個 shell script
+
+```
+#!/bin/sh
+java -jar ~/jars/google-java-format-1.9-all-deps.jar "$@"
+```
+
 ### fzf
 超好用的fuzzy finder
 ```sh
