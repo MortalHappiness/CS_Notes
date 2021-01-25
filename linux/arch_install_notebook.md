@@ -329,6 +329,11 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
+### clang-format
+```
+sudo pacman -S clang
+```
+
 ### 載dart-sass
 
 ```sh
@@ -355,13 +360,15 @@ cd nvm
 makepkg -si
 ```
 
-#### Java
-
+### Java
 ```
 sudo pacman -S jdk-openjdk
 ```
 
-#### fzf
+### google-java-format
+https://github.com/google/google-java-format
+
+### fzf
 超好用的fuzzy finder
 ```sh
 sudo pacman -S fzf
